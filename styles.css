@@ -49,14 +49,15 @@ body {
 @media (max-width: 500px) {
     .header_iconLogo {
         padding: 0.8rem 1rem;
+        margin-bottom: 2.5rem;
     }
 
     .title {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .name_logo {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     
     .icono {
