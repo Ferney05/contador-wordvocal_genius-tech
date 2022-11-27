@@ -25,7 +25,7 @@ body {
 
     font-size: 2rem;
     font-weight: 600;
-    color: var(--color-negro-text);
+    color: var(--color-text-morado);
     text-decoration: none;
 }
 
@@ -40,7 +40,8 @@ body {
 .title {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--color-azul-text);
+    color: var(--color-text-morado);
+    transition: transform 1s ease-out;
 }
 
 /* RESPONSIVE */

@@ -8,6 +8,8 @@ const sect_ContadorPalabras = document.querySelector('.contadorWords');
 
 const databotones_home = document.querySelector('[databotones_home]');
 
+// CAMBIA TITLE
+
 const titleContadorPalabras = () => {
     TitleActual.innerText = 'Word counter';
     sect_ContadorPalabras.style.display = 'block';
@@ -22,3 +24,18 @@ const titleVocalRepetida = () => {
 
 boton_ContadorPalabras.addEventListener('click', titleContadorPalabras);
 boton_VocalRepetida.addEventListener('click', titleVocalRepetida);
+
+// TRANSLATE TITLE
+
+const translateTitle = () => {
+    setInterval(() => {
+        TitleActual.style = 'transform: translateX(5px)';
+    }, 1000);
+    
+    setInterval(() => {
+        TitleActual.style = 'transform: translateX(-5px)';
+    }, 2000);
+}
+
+translateTitle();
+
