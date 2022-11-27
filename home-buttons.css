@@ -1,0 +1,25 @@
+
+.botones_home {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contadorWors_boton, .vocalRepetida_boton {
+    padding: 1.5rem 3.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--backgroundColor-azul);
+    color: var(--color-white);
+    border-radius: 10px;
+}

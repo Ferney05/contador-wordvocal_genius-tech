@@ -1,0 +1,64 @@
+
+@import url(ajustar-reset.css);
+@import url(home-buttons.css);
+@import url(fuentes-colors.css);
+@import url(vocalRepetida.css);
+@import url(contadorPalabras.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header_iconLogo {
+    padding: 1rem 3rem;
+    position: sticky;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name_logo {
+    display: flex;
+    align-items: center;
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-negro-text);
+    text-decoration: none;
+}
+
+.icono {
+    width: 60px;
+}
+
+.ver-eyeImg {
+    width: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-azul-text);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 500px) {
+    .header_iconLogo {
+        padding: 0.8rem 1rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .name_logo {
+        font-size: 1.4rem;
+    }
+    
+    .icono {
+        width: 45px;
+    }
+}

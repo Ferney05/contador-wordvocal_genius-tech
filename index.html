@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bolt.svg" type="image/x-icon">
+    <title>Genius Tech - Contador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main class="main__container">
+        <header class="header_iconLogo">
+            <div class="logo-icon">
+                <a class="name_logo" href="index.html"><img src="bolt.svg" class="icono" alt=""> Genius Tech</a>
+            </div>
+
+            <div class="title-proyecto">
+                <h1 class="title" dataTitle></h1>
+            </div>
+        </header>
+
+        <section class="botones_home" databotones_home>
+            <div class="buttons">
+                <button class="contadorWors_boton" dataBoton-ContadorPalabras>Contador de palabras</button>
+                <button class="vocalRepetida_boton" dataBoton-VocalRepetida>Vocal repetida</button>
+            </div>
+        </section>
+
+        <section class="vocalRepetida">
+            <div class="sect_elements">
+                <div>
+                    <div class="input">
+                        <p class="info-p"><strong>Nota:</strong> Ingrese el texto para calcular la vocal que más se repite ;)</p>
+                        <textarea type="text" class="input-text" placeholder="Ingrese el texto" dataInputText></textarea>
+                    </div>
+                    
+                    <p class="resultado" dataResult></p>
+                    <button class="botonResult" dataBotonResult>Ver vocal <img src="eye.svg" class="ver-eyeImg" alt=""></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contadorWords">
+            <div class="contadorPalabras">
+                <div>
+                    <div class="input-contador">
+                        <p class="title_info"><strong>Nota #1:</strong> Simplemente ingrese el texto para comenzar a contar</p>
+                        <textarea id="text-input" cols="30" rows="10" class="input-text" placeholder="Ingrese el texto aquí" maxlength="15000"></textarea>
+                    </div>
+        
+                    <div class="result-contador">
+                        <p class="title_info"><strong>Nota #2:</strong> Estadísticas básicas de conteo de palabras</p>
+                        <table class="table__contenedor">
+                            <tr class="tr-filas">
+                                <td class="td_text-info">Palabras</td>
+                                <td class="td-span" id="cantidad-palabras">0</td>
+                            </tr>
+                            <tr class="tr-filas">
+                                <td class="td_text-info">Carácteres [Incluyendo espacios]</td>           
+                                <td class="td-span"><span class="span-num" id="cantidad-caracteres">0</span></td>
+                            </tr>
+                            <tr class="tr-filas">
+                                <td class="td_text-info">Carácteres [Sin espacios]</td>
+                                <td class="td-span"><span class="span-num" id="cantidad_chart-sinEspacios">0</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="vocalRepetida.js"></script>
+    <script src="contadorPalabras.js"></script>
+
+</body>
+</html>

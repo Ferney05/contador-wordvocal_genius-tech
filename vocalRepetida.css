@@ -1,0 +1,84 @@
+
+.vocalRepetida {
+    display: none;
+}
+
+.sect_elements {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+strong {
+    color: var(--color-azul-text);
+    font-weight: 400;
+}
+
+.input-text {
+    width: 90%;
+    height: 200px;
+
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    outline: none;
+    border: 1px solid var(--color-gris);
+    background-color: var(--color-white);
+    color: var(--color-negro-text);
+    resize: none;
+    transition: 1s;
+}
+
+.input-text::placeholder {
+    font-weight: 200;
+    color: var(--color-negro-text);
+}
+
+.input-text:focus {
+    border-color: var(--color-azul-trans);
+    transition: 1s;
+}
+
+.resultado {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.botonResult {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1rem 3rem;
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--backgroundColor-azul);
+    color: var(--color-white);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 500px) {
+    .vocalRepetida {
+        padding: 3rem 0;
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .vocalRepetida {
+        padding: 4rem 0;
+    }
+}

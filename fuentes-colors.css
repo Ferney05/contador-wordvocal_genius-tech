@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cormorant+Garamond:wght@300&family=Estonia&family=Fleur+De+Leah&family=Gayathri:wght@100&family=Gowun+Batang&family=Grey+Qo&family=Inconsolata:wght@300&family=Josefin+Slab:wght@500&family=League+Spartan:wght@200;300;400;600&family=Merriweather:wght@300&family=Monsieur+La+Doulaise&family=Montserrat:wght@200;300;600;700&family=Peralta&family=Quicksand&family=Raleway:wght@200;300;400;600&family=Righteous&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --fuente-spartan: 'League Spartan', sans-serif; 
+    --color-gris: #e4e7e4;
+    --color-white: #fcfcfc;
+    --color-azul-text: #2329D7;
+    --backgroundColor-azul: #2329D7;
+    --color-azul-trans: #2329d754;
+    --color-negro-text: #000000;
+    --background-color-negro: #2B2B2B;
+}
+
+* {
+    font-family: var(--fuente-spartan);
+}
+
+body {
+    background-color: var(--color-white);
+}
